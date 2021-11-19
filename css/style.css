@@ -53,6 +53,13 @@ header{
   text-transform: uppercase;
 }
 
+#navDecorative.nav_item{
+  display: none;
+  color: rgba(255, 253, 248, 0.5);
+  text-transform: uppercase;
+  max-width: 10px;
+}
+
 .header-image{
   width: 100%;
   border-bottom: 2px solid #FFE08F;
@@ -302,6 +309,10 @@ a.skip:focus{
   }
   td, th{
     padding: 15px;
+  }
+
+  #navDecorative.nav_item{
+    display: initial;
   }
 }
 
